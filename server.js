@@ -14,8 +14,8 @@ app.set("view engine", "ejs");
 
 const PORT = 3000;
 
-const db = "mongodb+srv://spidybats72:Bakytbek05@node-course.2nrrv.mongodb.net/node-blog?retryWrites=true&w=majority&appName=node-course"
-;
+// const db = "mongodb+srv://spidybats72:Bakytbek05@node-course.2nrrv.mongodb.net/node-blog?retryWrites=true&w=majority&appName=node-course"
+const db = "mongodb+srv://Bakytbek:Bakytbek05@wp.thdfbw1.mongodb.net/?retryWrites=true&w=majority&appName=wp";
 
 mongoose
   .connect(db)

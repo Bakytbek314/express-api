@@ -16,12 +16,12 @@ router.get("/api/posts", getPosts);
 router.post("/api/post", addPost);
 
 //Get Post by ID
-router.get("/api/post/:id", getPost);
+router.get("/api/posts/:id", getPost);
 
 //Delete Post by Id
-router.delete("/api/post/:id", deletePost);
+router.delete("/api/posts/:id", deletePost);
 
 //Update Post by ID
-router.put("/api/post/:id", editPost);
+router.put("/api/posts/:id", editPost);
 
 module.exports = router;
